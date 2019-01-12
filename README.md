@@ -25,3 +25,6 @@ Move cursor using:
      fo -> to find the next o
      3fo -> to find the third occurrence of o
 
+### Go to matching parenthesis
+  - Press: shift + %
+   {"users":[{"id:1"},{"id":2}]}
