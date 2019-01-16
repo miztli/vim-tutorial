@@ -25,7 +25,7 @@ Move cursor using:
   - type: p to paste it anywhere
 
 ### Delete all line
-  - type: D
+  - type: D or dd
 
 ### Clear all line; to insert mode
   - type: S
@@ -85,4 +85,7 @@ Move cursor using:
   - quit: :q
   - quit without saving: q!
 
-
+### Find and replace
+  - Ask for confirmation: :%s/foo/bar/gc  
+  - Do not ask for confirmation: :%s/foo/bar/g
+  - To search only in the current line, remove: %
