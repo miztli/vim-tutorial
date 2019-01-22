@@ -89,3 +89,14 @@ Move cursor using:
   - Ask for confirmation: :%s/foo/bar/gc  
   - Do not ask for confirmation: :%s/foo/bar/g
   - To search only in the current line, remove: %
+
+### Collapse
+  - fold: zm
+  - unfold: zn
+
+### Comment
+  - type: Ctrl+v, then
+  - move cursor, then
+  - type: Shift + i
+  - type: // or ##, then
+  - type:  ESC
